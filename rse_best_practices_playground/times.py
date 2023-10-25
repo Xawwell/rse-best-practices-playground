@@ -16,6 +16,12 @@ It sort through all the values in the list of time.
 The function then provides the biggest time in a list of times 
 """
 def calculate_fastest_time(time_list):
+    '''
+    Returns the largest time in a list.
+    
+    Keyword arguments:
+    time_list -- a list of times
+    '''
     fastest_time = time_list[0]
     for time in time_list:
         if time > fastest_time:
